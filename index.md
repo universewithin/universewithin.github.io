@@ -34,7 +34,7 @@ background(250);
 let radius = width * 1.5;
 
 //drag to move the world.
-orbitControl(2,2);
+orbitControl(5,5);
 
 normalMaterial();
 rotateX(-s/13);
