@@ -42,7 +42,7 @@ function draw() {
 	let radius = width * 1.5;
 
 	//drag to move the world.
-	orbitControl();
+	orbitControl(8,8);
 
 	normalMaterial();
 	rotateX(-s/13);
