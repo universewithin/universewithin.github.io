@@ -1,3 +1,12 @@
+<html>
+<head>
+body, html {height:100%;}
+div.wrap {height:100%; overflow:hidden;}
+body {overflow: hidden; }
+</head>
+
+<body markdown="1">
+
 ---
 title: Polytopes
 layout: home
@@ -10,7 +19,8 @@ meta-description: Use P5.js to explore some basic polytopes (3D objects with "fl
 tags: [example, p5.js]
 
 ---
-<div id="sketch-holder"></div>
+
+<div id="sketch-holder">
 
 Use touchscreen to rotate object, and count the number of:
 
@@ -63,4 +73,4 @@ pop();
 }
 
 </script>
----
+</div></body></html>
