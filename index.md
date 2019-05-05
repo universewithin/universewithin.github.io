@@ -38,18 +38,18 @@ function setup() {
 let s = 128;
 
 function draw() {
-	cvs.background(250);
+	background(250);
 
 	//drag to move the world.
-	cvs.orbitControl(5,5);
+	orbitControl(5,5);
 
-	cvs.normalMaterial();
-	cvs.rotateX(-s/13);
-	cvs.rotateY(s);
+	normalMaterial();
+	rotateX(-s/13);
+	rotateY(s);
 
-	cvs.push();
-	cvs.box(s, s, s);
-	cvs.pop();
+	push();
+	box(s, s, s);
+	pop();
 }
 
 // $('#recover').trigger({
