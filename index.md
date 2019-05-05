@@ -13,7 +13,7 @@ Use touchscreen to rotate object, and count the number of :
 
 ---
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
 <script>
 
 // // lock scroll position, but retain settings for later
