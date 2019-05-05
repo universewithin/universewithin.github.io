@@ -31,8 +31,8 @@ Use touchscreen to rotate object, and count the number of :
 // document.body.ontouchmove = (e) => { e.preventDefault; return false; }; 
 
 function setup() {
-	var cvs = createCanvas(710, 400, WEBGL);
-	cvs.style('display', 'block');    
+	createCanvas(710, 400, WEBGL);
+	//cvs.style('display', 'block');    
 }
 
 let s = 128;
