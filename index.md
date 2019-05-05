@@ -8,7 +8,7 @@ title: Polytopes
 Use touchscreen to rotate object, and count the number of :   
 
 - faces ? 
-- edges ?  
+- edges?  
 - vertices?  
 
 ---
@@ -39,6 +39,7 @@ let s = 128;
 
 function draw() {
 	background(250);
+	let radius = width * 1.5;
 
 	//drag to move the world.
 	orbitControl();
