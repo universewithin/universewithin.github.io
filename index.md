@@ -7,7 +7,7 @@ title: Polytopes
 
 Use touchscreen to rotate object, and count the number of:   
 
-- facees? 
+- faces? 
 - edges?  
 - vertices?  
 
