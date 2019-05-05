@@ -5,11 +5,11 @@ title: Polytopes
 
 <div id="sketch-holder"></div>
 
-Use touchscreen to rotate object, and count the number of:   
+Use touchscreen to rotate object, and count the number of  :   
 
 - faces? 
 - edges?  
-- vertices ?  
+- vertices?  
 
 ---
 
@@ -53,10 +53,10 @@ function draw() {
 	pop();
 }
 
-$('#recover').trigger({
-    type: 'mousedown',
-    which: 3
-});
+// $('#recover').trigger({
+//     type: 'mousedown',
+//     which: 3
+// });
 
 // .trigger({
 //     type: 'mousedown',
