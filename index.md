@@ -32,7 +32,7 @@ Use touchscreen to rotate object, and count the number of:
 
 function setup() {
 var cnv = createCanvas(710, 400, WEBGL);
-cnv.style('display', 'block'); 
+cnv.style('display', 'block');    
 }
 
 let s = 128;
@@ -58,9 +58,11 @@ pop();
 $('#recover').trigger({
     type: 'mousedown',
     which: 3
-}).trigger({
-    type: 'mousedown',
-    which: 1
 });
+
+// .trigger({
+//     type: 'mousedown',
+//     which: 1
+// });
 
 </script>
