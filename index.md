@@ -22,7 +22,21 @@ vertices?
 ---
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script>
+
+// lock scroll position, but retain settings for later
+var scrollPosition = [
+  self.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft,
+  self.pageYOffset || document.documentElement.scrollTop  || document.body.scrollTop
+];
+var html = jQuery('html'); // it would make more sense to apply this to body, but IE7 won't have that
+html.data('scroll-position', scrollPosition);
+html.data('previous-overflow', html.css('overflow'));
+html.css('overflow', 'hidden');
+window.scrollTo(scrollPosition[0], scrollPosition[1]);
+
+	
 function setup() {
 createCanvas(710, 400, WEBGL);
 }
