@@ -11,7 +11,7 @@ tags: [example, p5.js]
 
 ---
 
-<div id="sketch-holder"></div>
+<div id="sketch-holder" markdown="1">
 
 Use touchscreen to rotate object, and count the number of:
 
@@ -64,5 +64,5 @@ pop();
 }
 
 </script>
-
+</div>
 ---
