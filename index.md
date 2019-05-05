@@ -1,14 +1,6 @@
 ---
+layout: default
 title: Polytopes
-layout: home
-#thumbnail: /examples/p5js/images/fireworks-2.png
-#tagline: Ooh! Aah!
-#sort-key: 100
-meta-title: P5.js Polytopes Example
-meta-description: Use P5.js to explore some basic polytopes (3D objects with "flat" faces)!
-#meta-image: /examples/p5js/images/fireworks-1.png
-tags: [example, p5.js]
-
 ---
 
 <div id="sketch-holder"></div>
