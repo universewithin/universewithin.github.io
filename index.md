@@ -15,7 +15,7 @@ tags: [example, p5.js]
 
 Use touchscreen to rotate object, and count the number of:
 
-spaces?
+faces?
 edges?
 vertices?
 
