@@ -10,8 +10,7 @@ meta-description: Use P5.js to explore some basic polytopes (3D objects with "fl
 tags: [example, p5.js]
 
 ---
-
-<div id="sketch-holder" markdown="1">
+<div id="sketch-holder"></div>
 
 Use touchscreen to rotate object, and count the number of:
 
@@ -64,5 +63,4 @@ pop();
 }
 
 </script>
-</div>
 ---
