@@ -1,12 +1,3 @@
-<html>
-<head>
-body, html {height:100%;}
-div.wrap {height:100%; overflow:hidden;}
-body {overflow: hidden; }
-</head>
-
-<body markdown="1">
-
 ---
 title: Polytopes
 layout: home
@@ -20,11 +11,11 @@ tags: [example, p5.js]
 
 ---
 
-<div id="sketch-holder">
+<div id="sketch-holder" markdown="1">
 
 Use touchscreen to rotate object, and count the number of:
 
-bitches?
+faces?
 edges?
 vertices?
 
@@ -73,4 +64,5 @@ pop();
 }
 
 </script>
-</div></body></html>
+</div>
+---
