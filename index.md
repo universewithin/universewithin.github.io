@@ -41,7 +41,7 @@ function draw() {
 	background(250);
 
 	//drag to move the world.
-	orbitControl(5,5);
+	orbitControl();
 
 	normalMaterial();
 	rotateX(-s/13);
