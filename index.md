@@ -31,34 +31,32 @@ Use touchscreen to rotate object, and count the number of:
 // document.body.ontouchmove = (e) => { e.preventDefault; return false; }; 
 
 function setup() {
-var cnv = createCanvas(710, 400, WEBGL);
-cnv.style('display', 'block');    
+	var cnv = createCanvas(710, 400, WEBGL);
+	cnv.style('display', 'block');    
 }
 
 let s = 128;
 
 function draw() {
-background(250);
-let radius = width * 1.5;
+	background(250);
+	let radius = width * 1.5;
 
-//drag to move the world.
-orbitControl(5,5);
+	//drag to move the world.
+	orbitControl(5,5);
 
-normalMaterial();
-rotateX(-s/13);
-rotateY(s);
+	normalMaterial();
+	rotateX(-s/13);
+	rotateY(s);
 
-
-push();
-box(s, s, s);
-pop();
-
+	push();
+	box(s, s, s);
+	pop();
 }
 
-$('#recover').trigger({
-    type: 'mousedown',
-    which: 3
-});
+// $('#recover').trigger({
+//     type: 'mousedown',
+//     which: 3
+// });
 
 // .trigger({
 //     type: 'mousedown',
