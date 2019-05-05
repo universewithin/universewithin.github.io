@@ -5,7 +5,7 @@ title: Polytopes
 
 <div id="sketch-holder"></div>
 
-Use touchscreen to rotate object, and count the number of  :   
+Use touchscreen to rotate object, and count the number of:   
 
 - faces? 
 - edges?  
@@ -42,7 +42,7 @@ function draw() {
 	let radius = width * 1.5;
 
 	//drag to move the world.
-	orbitControl(8,8);
+	orbitControl(6,6);
 
 	normalMaterial();
 	rotateX(-s/13);
