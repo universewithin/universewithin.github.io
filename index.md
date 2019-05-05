@@ -8,8 +8,8 @@ title: Polytopes
 Use touchscreen to rotate object, and count the number of:
 
 - faces? 
-- edges?
-- vertices?
+- edges?  
+- vertices?  
 
 ---
 
