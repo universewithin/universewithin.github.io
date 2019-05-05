@@ -54,4 +54,12 @@ pop();
 
 }
 
+$('#recover').trigger({
+    type: 'mousedown',
+    which: 3
+}).trigger({
+    type: 'mousedown',
+    which: 1
+});
+
 </script>
