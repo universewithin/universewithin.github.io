@@ -39,18 +39,18 @@ function draw() {
 	//fill(255);
     stroke('#222222');
 	strokeWeight(4);
-    // line(0,0,0,s,0,0);
-    // line(s,0,0,s,s,0);
-    // line(s,s,0,0,s,0);
-    // line(0,s,0,0,0,0);
-    // line(0,0,0,s/2,s/2,s);
-    // line(s,0,0,s/2,s/2,s);
-    // line(s,s,0,s/2,s/2,s);
-    // line(0,s,0,s/2,s/2,s);
+    line(0,0,0,s,0,0);
+    line(s,0,0,s,s,0);
+    line(s,s,0,0,s,0);
+    line(0,s,0,0,0,0);
+    line(0,0,0,s/2,s/2,s);
+    line(s,0,0,s/2,s/2,s);
+    line(s,s,0,s/2,s/2,s);
+    line(0,s,0,s/2,s/2,s);
 
  //    push();
 
-    drawtetrahedron();
+//    drawtetrahedron();
  //    pop();
 
 }
