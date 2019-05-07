@@ -35,6 +35,8 @@ function draw() {
 	//rotateY(s);
 
 	//fill(255);
+    stroke('#222222');
+	strokeWeight(4);
     line(0,0,0,s,0,0);
     line(s,0,0,s,s,0);
     line(s,s,0,0,s,0);
@@ -45,8 +47,7 @@ function draw() {
     line(0,s,0,s/2,s/2,s);
 
  //    push();
- //    stroke('#222222');
-	// strokeWeight(4);
+
  //    drawtetrahedron();
  //    pop();
 
