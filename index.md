@@ -22,6 +22,8 @@ function setup() {
 }
 
 let s = 128;
+//let rad60 = 60*PI/180;
+let rad60 = radians(60);
 
 function draw2() {
 	background(250);
@@ -52,14 +54,18 @@ function draw() {
 	//fill(255);
 	stroke('#222222');
 	strokeWeight(4);
-    line(0,0,0,s,0,0);
-    line(s,0,0,s,s,0);
-    line(s,s,0,0,s,0);
-    line(0,s,0,0,0,0);
-    line(0,0,0,s/2,s/2,s);
-    line(s,0,0,s/2,s/2,s);
-    line(s,s,0,s/2,s/2,s);
-    line(0,s,0,s/2,s/2,s);
+    // line(0,0,0,s,0,0);
+    // line(s,0,0,s,s,0);
+    // line(s,s,0,0,s,0);
+    // line(0,s,0,0,0,0);
+    // line(0,0,0,s/2,s/2,s);
+    // line(s,0,0,s/2,s/2,s);
+    // line(s,s,0,s/2,s/2,s);
+    // line(0,s,0,s/2,s/2,s);
+
+    push();
+    drawtetrahedron();
+    pop();
 
 }
 
@@ -85,6 +91,30 @@ function draw3() {
   	endShape(CLOSE);
 
 	pop();
+}
+
+function drawtetrahedron() {
+   beginShape(TRIANGLES);
+   vertex(-s/2,0,0);
+   vertex(0,sin(rad60)*(-s),0);
+   vertex(s/2,0,0);    
+  endShape();
+  beginShape(TRIANGLES);
+   vertex(-s/2,0,0);
+   vertex(0,sin(rad60)*(-s)*.5,sin(rad60)*(s));
+   vertex(s/2,0,0);    
+  endShape();
+   beginShape(TRIANGLES);
+   vertex(-s/2,0,0);
+   vertex(0,sin(rad60)*(-s)*.5,sin(rad60)*(s));
+   vertex(0,sin(rad60)*(-s),0);    
+  endShape();
+    beginShape(TRIANGLES);
+     vertex(0,sin(rad60)*(-s),0);
+     vertex(0,sin(rad60)*(-s)*.5,sin(rad60)*(s));
+       vertex(s/2,0,0);
+  endShape();
+  
 }
 
 
