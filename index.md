@@ -42,7 +42,7 @@ function draw() {
 </script>
 
 <center>
-	<a href="" class="previous">previous</a>
-	<a href="" class="next">next</a>
+	<a href="" class="previous">&laquo; previous</a>
+	<a href="" class="next">Next &raquo;</a>
 </center>
 
