@@ -5,7 +5,7 @@ title: Polytopes
 
 <div id="sketch-holder"></div>
 
-Use touchscreen to rotate object, and count the number of:   
+Use mouse or trackpad to rotate object, and count the number of:   
 
 - faces? 
 - edges?  
