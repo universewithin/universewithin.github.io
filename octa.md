@@ -42,7 +42,7 @@ function draw() {
 </script>
 
 <center>
-	<a href="universewithin.github.io/tetra.md" class="previous">&laquo; previous</a>
+	<a href="/tetra/" class="previous">&laquo; previous</a>
 	<!-- a href="" class="next">Next &raquo;</a -->
 </center>
 

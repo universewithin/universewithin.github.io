@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hexahedron (Cube)
+title: Hexahedron (Cube)	
 ---
 
 <div id="sketch-holder"></div>
@@ -43,6 +43,6 @@ function draw() {
 
 <center>
 	<!-- a href="" class="previous">&laquo; previous</a -->
-	<a href="universewithin.github.io/tetra.md" class="next">Next &raquo;</a>
+	<a href="/tetra/" class="next">Next &raquo;</a>
 </center>
 

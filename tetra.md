@@ -50,7 +50,7 @@ function draw() {
 </script>
 
 <center>
-	<a href="universewithin.github.io/index.md" class="previous">&laquo; previous</a>
-	<a href="universewithin.github.io/octa.md" class="next">Next &raquo;</a>
+	<a href="/index/" class="previous">&laquo; previous</a>
+	<a href="/octa/" class="next">Next &raquo;</a>
 </center>
 
