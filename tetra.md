@@ -30,23 +30,52 @@ function draw() {
 	//drag to move the world.
 	orbitControl(6,6);
 
-	push();
-	
-	fill(255);
-
-  	beginShape();
-  	vertex(s, s, s);
-  	vertex(-s, -s, s);
-  	vertex(-s, s, -s);
-  	vertex(s, -s, -s);
-  	endShape(CLOSE);
-
-	pop();
-
 	normalMaterial();
-	rotateX(-s/13);
-	rotateY(s);
+	//rotateX(-s/13);
+	//rotateY(s);
+
+	//fill(255);
+    line(0,0,0,s,0,0);
+    line(s,0,0,s,s,0);
+    line(s,s,0,0,s,0);
+    line(0,s,0,0,0,0);
+    line(0,0,0,s/2,s/2,s);
+    line(s,0,0,s/2,s/2,s);
+    line(s,s,0,s/2,s/2,s);
+    line(0,s,0,s/2,s/2,s);
+
+ //    push();
+ //    stroke('#222222');
+	// strokeWeight(4);
+ //    drawtetrahedron();
+ //    pop();
+
 }
+
+
+// function draw() {
+// 	background(250);
+
+// 	//drag to move the world.
+// 	orbitControl(6,6);
+
+// 	push();
+	
+// 	fill(255);
+
+//   	beginShape();
+//   	vertex(s, s, s);
+//   	vertex(-s, -s, s);
+//   	vertex(-s, s, -s);
+//   	vertex(s, -s, -s);
+//   	endShape(CLOSE);
+
+// 	pop();
+
+// 	normalMaterial();
+// 	rotateX(-s/13);
+// 	rotateY(s);
+// }
 
 </script>
 

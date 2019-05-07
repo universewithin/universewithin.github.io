@@ -26,7 +26,7 @@ let s = 128;
 //let rad60 = 60*PI/180;
 let rad60 = radians(60);
 
-function draw2() {
+function draw() {
 	background(250);
 	let radius = width * 1.5;
 
@@ -42,33 +42,6 @@ function draw2() {
 	pop();
 }
 
-function draw() {
-	background(250);
-
-	//drag to move the world.
-	orbitControl(6,6);
-
-	normalMaterial();
-	//rotateX(-s/13);
-	//rotateY(s);
-
-	//fill(255);
-    // line(0,0,0,s,0,0);
-    // line(s,0,0,s,s,0);
-    // line(s,s,0,0,s,0);
-    // line(0,s,0,0,0,0);
-    // line(0,0,0,s/2,s/2,s);
-    // line(s,0,0,s/2,s/2,s);
-    // line(s,s,0,s/2,s/2,s);
-    // line(0,s,0,s/2,s/2,s);
-
-    push();
-    stroke('#222222');
-	strokeWeight(4);
-    drawtetrahedron();
-    pop();
-
-}
 
 function draw3() {
 	background(250);
