@@ -18,7 +18,8 @@ Use mouse or trackpad to rotate object, and count the number of:
 <script>
 
 function setup() {
-	createCanvas(710, 400, WEBGL);
+	//createCanvas(710, 400, WEBGL);
+	createCanvas(450, 450, WEBGL);
 	//cvs.style('display', 'block');    
 }
 
