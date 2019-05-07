@@ -25,24 +25,32 @@ let s = 128;
 
 function draw() {
 	background(250);
-	let radius = width * 1.5;
 
 	//drag to move the world.
 	orbitControl(6,6);
 
+	push();
+	
+	fill(255);
+
+  	beginShape();
+  	vertex(s, s, s);
+  	vertex(-s, -s, s);
+  	vertex(-s, s, -s);
+  	vertex(s, -s, -s);
+  	endShape(CLOSE);
+
+	pop();
+
 	normalMaterial();
 	rotateX(-s/13);
 	rotateY(s);
-
-	push();
-	box(s, s, s);
-	pop();
 }
 
 </script>
 
 <center>
-	<!-- a href="" class="previous">&laquo; previous</a -->
-	<a href="tetra.md" class="next">Next &raquo;</a>
+	<a href="index.md" class="previous">&laquo; previous</a>
+	<a href="octa.md" class="next">Next &raquo;</a>
 </center>
 

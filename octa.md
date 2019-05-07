@@ -35,14 +35,14 @@ function draw() {
 	rotateY(s);
 
 	push();
-	box(s, s, s);
+	//box(s, s, s);
 	pop();
 }
 
 </script>
 
 <center>
-	<!-- a href="" class="previous">&laquo; previous</a -->
-	<a href="tetra.md" class="next">Next &raquo;</a>
+	<a href="tetra.md" class="previous">&laquo; previous</a>
+	<!-- a href="" class="next">Next &raquo;</a -->
 </center>
 
