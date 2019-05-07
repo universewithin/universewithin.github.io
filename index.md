@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Hexahedron	
+permalink: /index/
 ---
 
 <div id="sketch-holder"></div>
