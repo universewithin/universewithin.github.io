@@ -43,6 +43,6 @@ function draw() {
 
 <center>
 	<!-- a href="" class="previous">&laquo; previous</a -->
-	<a href="/tetra/" class="next">Next &raquo;</a>
+	<a href="/tetra.md/" class="next">Next &raquo;</a>
 </center>
 
