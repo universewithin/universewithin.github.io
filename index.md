@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Polytopes
+title: Hexahedron (Cube)
 ---
 
 <div id="sketch-holder"></div>

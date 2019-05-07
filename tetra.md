@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Polytopes
+title: Tetrahedron
 ---
 
 <div id="sketch-holder"></div>
