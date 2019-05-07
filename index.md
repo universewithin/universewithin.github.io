@@ -45,9 +45,13 @@ function draw() {
 	//drag to move the world.
 	orbitControl(6,6);
 
+	normalMaterial();
+	rotateX(-s/13);
+	rotateY(s);
+
+	//fill(255);
+
 	push();
-	
-	fill(255);
 
   	beginShape();
   	vertex(s, s, s);
@@ -58,9 +62,7 @@ function draw() {
 
 	pop();
 
-	normalMaterial();
-	rotateX(-s/13);
-	rotateY(s);
+	
 }
 
 
