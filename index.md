@@ -23,23 +23,23 @@ function setup() {
 
 let s = 128;
 
-// function draw() {
-// 	background(250);
-// 	let radius = width * 1.5;
-
-// 	//drag to move the world.
-// 	orbitControl(6,6);
-
-// 	normalMaterial();
-// 	rotateX(-s/13);
-// 	rotateY(s);
-
-// 	push();
-// 	box(s, s, s);
-// 	pop();
-// }
-
 function draw() {
+	background(250);
+	let radius = width * 1.5;
+
+	//drag to move the world.
+	orbitControl(6,6);
+
+	normalMaterial();
+	rotateX(-s/13);
+	rotateY(s);
+
+	push();
+	box(s, s, s);
+	pop();
+}
+
+function draw2() {
 	background(250);
 
 	//drag to move the world.
