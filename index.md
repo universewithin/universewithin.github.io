@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hexahedron	
+title: Hexahedron (Cube)	
 permalink: /index/
 ---
 
