@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Tetrahedron
+permalink: /tetra/
 ---
 
 <div id="sketch-holder"></div>

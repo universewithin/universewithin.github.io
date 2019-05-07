@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Octahedron
+permalink: /octa/
 ---
 
 <div id="sketch-holder"></div>
