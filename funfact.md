@@ -35,7 +35,7 @@ function draw() {
 	push();
 	box(s, s, s);
 
-	stroke('#222222');
+	stroke('#2222FF');
 	strokeWeight(4);
 
 	// octahedron wireframe
@@ -54,8 +54,8 @@ function draw() {
     line( v, 0, 0, 0, 0, v);
     line( 0, 0, v,-v, 0, 0);
 
-    stroke('#2222FF');
-	strokeWeight(2);
+    stroke('#222222');
+	strokeWeight(3);
 
     // large cube wireframe
     line( w, w, w, w,-w, w);
