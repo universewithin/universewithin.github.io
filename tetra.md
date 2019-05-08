@@ -82,8 +82,8 @@ function draw() {
 
 </script>
 
-<center>
+<div>
 	<a href="/cube/" class="previous">&laquo; previous</a>
 	<a href="/octa/" class="next">Next &raquo;</a>
-</center>
+</div>
 
