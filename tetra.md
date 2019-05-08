@@ -33,7 +33,7 @@ function draw() {
 	angleMode(DEGREES);
 
 	//drag to move the world.
-	orbitControl(6,6);
+	orbitControl(4,4);
 
 	normalMaterial();
 	rotateX(-60);
