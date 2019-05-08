@@ -69,8 +69,6 @@ function draw3() {
 }
 
 
-
-
 </script>
 
 <div>
