@@ -42,18 +42,28 @@ function draw() {
     stroke('#222222');
 	strokeWeight(4);
 
+	//(1,1,1) (1,-1,-1) (-1,-1,1) (-1,1,-1)
+
+	line(s,s,s,s,-s,-s);
+	line(s,s,s,-s,-s,s);
+	line(s,s,s,-s,s,-s);
+
+	line(s,-s,-s,-s,-s,s);
+	line(s,-s,-s,-s,s,-s);
+	line(-s,-s,s,-s,s,-s);
+
 	// (0, s * sqrt(2.0 / 3.0), 0);
  //    (s / sqrt(3.0), 0, 0);
  //    (-s / (2.0 * sqrt(3)), 0, -s/2);
  //    (-s / (2.0 * sqrt(3)), 0, s/2);
 
-    line(0, s * sqrt(2.0 / 3.0), 0, s / sqrt(3.0), 0, 0);
-    line(0, s * sqrt(2.0 / 3.0), 0, -s / (2.0 * sqrt(3)), 0, -s/2);
-    line(0, s * sqrt(2.0 / 3.0), 0, -s / (2.0 * sqrt(3)), 0, s/2);
+    // line(0, s * sqrt(2.0 / 3.0), 0, s / sqrt(3.0), 0, 0);
+    // line(0, s * sqrt(2.0 / 3.0), 0, -s / (2.0 * sqrt(3)), 0, -s/2);
+    // line(0, s * sqrt(2.0 / 3.0), 0, -s / (2.0 * sqrt(3)), 0, s/2);
 
-    line(s / sqrt(3.0), 0, 0, -s / (2.0 * sqrt(3)), 0, -s/2);
-    line(-s / (2.0 * sqrt(3)), 0, -s/2, -s / (2.0 * sqrt(3)), 0, s/2);
-    line(-s / (2.0 * sqrt(3)), 0, s/2, s / sqrt(3.0), 0, 0);
+    // line(s / sqrt(3.0), 0, 0, -s / (2.0 * sqrt(3)), 0, -s/2);
+    // line(-s / (2.0 * sqrt(3)), 0, -s/2, -s / (2.0 * sqrt(3)), 0, s/2);
+    // line(-s / (2.0 * sqrt(3)), 0, s/2, s / sqrt(3.0), 0, 0);
 
  //    push();
 
