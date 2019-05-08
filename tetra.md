@@ -109,7 +109,7 @@ function drawtetrahedron() {
 </script>
 
 <center>
-	<a href="" class="previous">&laquo; previous</a>
+	<a href="/cube/" class="previous">&laquo; previous</a>
 	<a href="/octa/" class="next">Next &raquo;</a>
 </center>
 

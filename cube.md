@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Hexahedron (Cube)	
+permalink: /cube/
 ---
 
 <div id="sketch-holder"></div>
@@ -41,6 +42,32 @@ function draw() {
 	box(s, s, s);
 	pop();
 }
+
+
+function draw3() {
+	background(250);
+
+	//drag to move the world.
+	orbitControl(6,6);
+
+	normalMaterial();
+	rotateX(-s/13);
+	rotateY(s);
+
+	//fill(255);
+
+	push();
+
+  	beginShape();
+  	vertex(s, s, s);
+  	vertex(-s, -s, s);
+  	vertex(-s, s, -s);
+  	vertex(s, -s, -s);
+  	endShape(CLOSE);
+
+	pop();
+}
+
 
 
 
