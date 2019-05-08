@@ -19,7 +19,7 @@ function setup() {
 
 let s = 64;
 let v = s*3/2;
-let w = s*3;
+let w = v;
 
 function draw() {
 	background(222);
