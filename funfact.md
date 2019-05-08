@@ -7,11 +7,11 @@ permalink: /funfact/
 A cube fits perfectly within a larger octahedron, which fits perfectly within an even larger cube, and so on and so on!  
   
 In the model below, the smaller cube's 8 vertices match up to the centers of the octahedron's 8 faces.  
-And _that_ octahedron's _6 vertices_ match up to the centers of the larger cube's _6 faces_!  
+And _that_ octahedron's 6 vertices match up to the centers of the larger cube's 6 faces!  
   
 Use mouse or trackpad to rotate object...
   
-_Bonus: Inside which object will the tetrahedron fit in a similar way?  
+_Inside which object does the tetrahedron fit, in a similar way?  
 Hint:  Just like in our cube/octahedron example, the number of vertices should match the number of faces..._  
 
 ---
