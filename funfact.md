@@ -5,7 +5,13 @@ permalink: /funfact/
 ---
 
 <div id="sketch-holder"></div>
-
+Fun fact:  
+  
+A cube fits perfectly within a larger octahedron, which fits perfectly within an even larger cube, and so on and so on!  
+  
+In the model below, the smaller cube's 8 vertices match up to the centers of the octahedron's 8 faces.  
+And _that_ octahedron's _6 vertices_ match up to the centers of the larger cube's 6 faces!  
+  
 Use mouse or trackpad to rotate object... 
 
 ---
