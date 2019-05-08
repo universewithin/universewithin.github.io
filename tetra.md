@@ -29,16 +29,15 @@ let r = s/2;
 
 function draw() {
 	background(250);
+	angleMode(DEGREES);
 
 	//drag to move the world.
 	orbitControl(6,6);
 
 	normalMaterial();
-	rotateX(-s/6);
-	rotateY(-s/3);
-	//rotateZ(-s/r);
+	rotateY(-30);
+	rotateX(-30);
 
-	//fill(255);
     stroke('#222222');
 	strokeWeight(2);
 
