@@ -26,6 +26,7 @@ function setup() {
 
 let s = 64;
 let r = s/2;
+let c = 255;
 
 function draw() {
 	background(250);
@@ -45,24 +46,28 @@ function draw() {
 
 	push();
 
+	fill(color(c,0,0));
 	beginShape();
 	vertex(s,s,s);
 	vertex(s,-s,-s);
 	vertex(-s,-s,s);
 	endShape(CLOSE);
 
+	fill(color(c,c,0));
 	beginShape();
 	vertex(s,s,s);
 	vertex(s,-s,-s);
 	vertex(-s,s,-s);
 	endShape(CLOSE);
 
+	fill(color(0,c,0));
 	beginShape();
 	vertex(s,s,s);
 	vertex(-s,-s,s);
 	vertex(-s,s,-s);
 	endShape(CLOSE);
 
+	fill(color(0,0,c));
 	beginShape();
 	vertex(s,-s,-s);
 	vertex(-s,-s,s);
