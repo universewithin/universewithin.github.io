@@ -24,7 +24,7 @@ function setup() {
 	createCanvas(648, 400, WEBGL); 
 }
 
-let s = 64;
+let s = 96;
 
 let c = 255;
 let h = 127;
