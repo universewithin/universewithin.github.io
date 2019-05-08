@@ -25,7 +25,7 @@ function setup() {
 }
 
 let s = 64;
-let r = 2;
+let r = s/2;
 
 function draw() {
 	background(250);
