@@ -27,7 +27,7 @@ function setup() {
 let s = 96;
 
 let c = 255;
-let a = 0.81; // alpha level
+let h = 127;
 
 function draw() {
 	background(222);
@@ -50,28 +50,28 @@ function draw() {
 
 	push();
 
-	fill(color('rgba(170,0,170,0.99)'));
+	fill(color(c,0,170));
 	beginShape();
 	vertex( 0, s, 0);
 	vertex(-s, 0, 0);
 	vertex( 0, 0,-s);
 	endShape(CLOSE);
 
-    fill(color('rgba(c,0,85,a)'));
+    fill(color(c,0,85));
 	beginShape();
     vertex( 0, s, 0);
     vertex( 0, 0,-s);
     vertex( s, 0, 0);
 	endShape(CLOSE);
 
-    fill(color('rgba(c,0,0,a)'));
+    fill(color(c,0,0));
 	beginShape();
     vertex( 0, s, 0);
     vertex( s, 0, 0);
     vertex( 0, 0, s);
 	endShape(CLOSE);
 
-    fill(color('rgba(c,85,0,a)'));
+    fill(color(c,85,0));
 	beginShape();
     vertex( 0, s, 0);
     vertex( 0, 0, s);
@@ -80,28 +80,28 @@ function draw() {
 
     //
 
-    fill(color('rgba(0,c,c,a)'));
+    fill(color(0,c,c));
 	beginShape();
     vertex( 0,-s, 0);
     vertex(-s, 0, 0);
     vertex( 0, 0,-s);
 	endShape(CLOSE);
 
-    fill(color('rgba(0,170,c,a)'));
+    fill(color(0,170,c));
 	beginShape();
     vertex( 0,-s, 0);
     vertex( 0, 0,-s);
     vertex( s, 0, 0);
 	endShape(CLOSE);
 
-    fill(color('rgba(0,85,c,a)'));
+    fill(color(0,85,c));
 	beginShape();
     vertex( 0,-s, 0);
     vertex( s, 0, 0);
     vertex( 0, 0, s);
 	endShape(CLOSE);
 
-    fill(color('rgba(0,0,c,a)'));
+    fill(color(0,0,c));
 	beginShape();
     vertex( 0,-s, 0);
     vertex( 0, 0, s);
