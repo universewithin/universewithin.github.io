@@ -8,7 +8,7 @@ permalink: /tetra/
 
 Use mouse or trackpad to rotate object, and count the number of:   
 
-- faces ? 
+- faces? 
 - vertices?  
 - edges?  
 
@@ -36,7 +36,7 @@ function draw() {
 
 	normalMaterial();
 	rotateY(60);
-	rotateX(60);
+	rotateX(-60);
 
     stroke('#222222');
 	strokeWeight(2);
