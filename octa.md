@@ -41,7 +41,7 @@ function draw() {
 	rotateY(72);
 
 	stroke('#222222');
-	strokeWeight(4);
+	strokeWeight(2);
 	//lights();
 
 	// ( 0, s, 0) 
