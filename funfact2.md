@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Fun fact 2...
-permalink: /funfact2/
+permalink: /funfact__2/
 ---
 
 <div id="sketch-holder"></div>
