@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hexahedron (Cube)	
+title: Cube (Hexahedron)	
 ---
 
 <div id="sketch-holder"></div>
