@@ -35,8 +35,8 @@ function draw() {
 	orbitControl(6,6);
 
 	normalMaterial();
-	rotateY(-30);
-	rotateX(-30);
+	rotateY(-45);
+	rotateX(-45);
 
     stroke('#222222');
 	strokeWeight(2);
