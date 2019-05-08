@@ -11,16 +11,14 @@ Use mouse or trackpad to rotate object, and count the number of:
 - vertices?
 - edges?    
 
+In the titlebar is the object's name, which offers a clue to the number of faces it has...
 ---
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
 <script>
 
 function setup() {
-	//createCanvas(710, 400, WEBGL);
-	//createCanvas(600, 600, WEBGL);
 	createCanvas(648, 400, WEBGL);
-	//cvs.style('display', 'block');    
 }
 
 let s = 128;
