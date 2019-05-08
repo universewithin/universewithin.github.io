@@ -1,19 +1,18 @@
 ---
 layout: default
 title: Cube (Hexahedron)
-permalink: //	
 ---
 
 <div id="sketch-holder"></div>
 
-.  Use mouse or trackpad to rotate object, and count the number of:   
-.
-.  - faces? 
-.  - vertices?
-.  - edges?    
-.
-.  In the language of math, a cube is also known as a __hexahedron__.  
-.  This name offers a clue to the number of faces it has.
+  Use mouse or trackpad to rotate object, and count the number of:   
+
+  - faces? 
+  - vertices?
+  - edges?    
+
+  In the language of math, a cube is also known as a __hexahedron__.  
+  This name offers a clue to the number of faces it has.
 
 ---
 
