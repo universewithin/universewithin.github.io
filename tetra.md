@@ -29,7 +29,7 @@ let s = 64;
 let c = 255;
 
 function draw() {
-	background(250);
+	background(153);
 	angleMode(DEGREES);
 
 	//drag to move the world.
