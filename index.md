@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Cube (Hexahedron)	
+title: Cube (Hexahedron)
+permalink: //	
 ---
 
 <div id="sketch-holder"></div>
