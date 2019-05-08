@@ -41,14 +41,19 @@ function draw() {
 	//fill(255);
     stroke('#222222');
 	strokeWeight(4);
-    line(0,0,0,s,0,0);
-    line(s,0,0,s,s,0);
-    line(s,s,0,0,s,0);
-    line(0,s,0,0,0,0);
-    line(0,0,0,s/2,s/2,s);
-    line(s,0,0,s/2,s/2,s);
-    line(s,s,0,s/2,s/2,s);
-    line(0,s,0,s/2,s/2,s);
+
+	// (0, s * sqrt(2.0 / 3.0), 0);
+ //    (s / sqrt(3.0), 0, 0);
+ //    (-s / (2.0 * sqrt(3)), 0, -s/2);
+ //    (-s / (2.0 * sqrt(3)), 0, s/2);
+
+    line(0, s * sqrt(2.0 / 3.0), 0, s / sqrt(3.0), 0, 0);
+    line(0, s * sqrt(2.0 / 3.0), 0, -s / (2.0 * sqrt(3)), 0, -s/2);
+    line(0, s * sqrt(2.0 / 3.0), 0, -s / (2.0 * sqrt(3)), 0, s/2);
+
+    line(s / sqrt(3.0), 0, 0, -s / (2.0 * sqrt(3)), 0, -s/2);
+    line(-s / (2.0 * sqrt(3)), 0, -s/2, -s / (2.0 * sqrt(3)), 0, s/2);
+    line(-s / (2.0 * sqrt(3)), 0, s/2, s / sqrt(3.0), 0, 0);
 
  //    push();
 
