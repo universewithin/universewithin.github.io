@@ -25,8 +25,7 @@ function setup() {
 }
 
 let s = 64;
-//let rad60 = 60*PI/180;
-let rad60 = radians(60);
+let r = 2;
 
 function draw() {
 	background(250);
@@ -35,9 +34,9 @@ function draw() {
 	orbitControl(6,6);
 
 	normalMaterial();
-	rotateX(-s/13);
-	rotateY(-s/13);
-	rotateZ(-s/13);
+	rotateX(-s/r);
+	rotateY(-s/r);
+	rotateZ(-s/r);
 
 	//fill(255);
     stroke('#222222');
