@@ -35,12 +35,12 @@ function draw() {
 	orbitControl(6,6);
 
 	normalMaterial();
-	//rotateX(-s/13);
-	//rotateY(s);
+	rotateX(-s/13);
+	rotateY(s);
 
 	//fill(255);
     stroke('#222222');
-	strokeWeight(4);
+	strokeWeight(2);
 
 	//(s,s,s) (s,-s,-s) (-s,-s,s) (-s,s,-s)
 
