@@ -19,6 +19,7 @@ function setup() {
 
 let s = 64;
 let v = s*3/2;
+let w = s*3;
 
 function draw() {
 	background(222);
@@ -33,8 +34,11 @@ function draw() {
 
 	push();
 	box(s, s, s);
+
 	stroke('#222222');
 	strokeWeight(4);
+
+	// octahedron wireframe
     line( 0, v, 0, v, 0, 0);
     line( 0, v, 0,-v, 0, 0);
     line( 0, v, 0, 0, 0, v);
@@ -49,6 +53,24 @@ function draw() {
     line( 0, 0,-v, v, 0, 0);
     line( v, 0, 0, 0, 0, v);
     line( 0, 0, v,-v, 0, 0);
+
+    // large cube wireframe
+    line( w, w, w, w,-w, w);
+    line( w,-w, w,-w,-w, w);
+    line(-w,-w, w,-w, w, w);
+    line(-w, w, w, w, w, w);
+
+    line( w, w, w, w, w,-w);
+    line( w,-w, w, w,-w,-w);
+    line(-w,-w, w,-w,-w,-w);
+    line(-w, w, w,-w, w,-w);
+
+    line( w, w,-w, w,-w,-w);
+    line( w,-w,-w,-w,-w,-w);
+    line(-w,-w,-w,-w, w,-w);
+    line(-w, w,-w, w, w,-w);
+
+
 	pop();
 }
 
