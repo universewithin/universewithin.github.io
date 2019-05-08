@@ -11,9 +11,6 @@ And _that_ octahedron's _six_ vertices match up to the centers of the larger cub
   
 Use mouse or trackpad to rotate object...
   
-_Inside which object does the tetrahedron fit, in a similar way?  
-Hint:  Just like in our cube/octahedron example, the number of vertices should match the number of faces..._  
-
 ---
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
