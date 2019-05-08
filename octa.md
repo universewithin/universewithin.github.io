@@ -49,28 +49,28 @@ function draw() {
 
 	push();
 
-	fill(color(c,0,0));
+	fill(color(c,0,c));
 	beginShape();
 	vertex( 0, s, 0);
 	vertex(-s, 0, 0);
 	vertex( 0, 0,-s);
 	endShape(CLOSE);
 
-    fill(color(c,h,0));
+    fill(color(c,0,170));
 	beginShape();
     vertex( 0, s, 0);
     vertex( 0, 0,-s);
     vertex( s, 0, 0);
 	endShape(CLOSE);
 
-    fill(color(c,c,0));
+    fill(color(c,0,85));
 	beginShape();
     vertex( 0, s, 0);
     vertex( s, 0, 0);
     vertex( 0, 0, s);
 	endShape(CLOSE);
 
-    fill(color(h,c,0));
+    fill(color(c,0,0));
 	beginShape();
     vertex( 0, s, 0);
     vertex( 0, 0, s);
@@ -79,28 +79,28 @@ function draw() {
 
     //
 
-    fill(color(0,h,c));
+    fill(color(0,c,c));
 	beginShape();
     vertex( 0,-s, 0);
     vertex(-s, 0, 0);
     vertex( 0, 0,-s);
 	endShape(CLOSE);
 
-    fill(color(0,0,c));
+    fill(color(0,170,c));
 	beginShape();
     vertex( 0,-s, 0);
     vertex( 0, 0,-s);
     vertex( s, 0, 0);
 	endShape(CLOSE);
 
-    fill(color(h,0,c));
+    fill(color(0,85,c));
 	beginShape();
     vertex( 0,-s, 0);
     vertex( s, 0, 0);
     vertex( 0, 0, s);
 	endShape(CLOSE);
 
-    fill(color(c,0,c));
+    fill(color(0,0,c));
 	beginShape();
     vertex( 0,-s, 0);
     vertex( 0, 0, s);
