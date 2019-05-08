@@ -54,8 +54,8 @@ function draw() {
     line( v, 0, 0, 0, 0, v);
     line( 0, 0, v,-v, 0, 0);
 
-    stroke('#333333');
-	strokeWeight(4);
+    stroke('#444444');
+	strokeWeight(3);
 
     // large cube wireframe
     line( w, w, w, w,-w, w);
