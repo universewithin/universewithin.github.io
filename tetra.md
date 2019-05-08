@@ -35,7 +35,7 @@ function draw() {
 
 	normalMaterial();
 	rotateX(-s/6);
-	rotateY(-s/2);
+	rotateY(-s/4);
 	//rotateZ(-s/r);
 
 	//fill(255);
