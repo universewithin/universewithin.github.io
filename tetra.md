@@ -41,7 +41,7 @@ function draw() {
 
     stroke('#222222');
 	strokeWeight(2);
-	lights();
+	//lights();
 
 	//(s,s,s) (s,-s,-s) (-s,-s,s) (-s,s,-s)
 
