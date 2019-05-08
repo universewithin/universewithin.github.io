@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Fun fact #2...
+title: Fun fact 2...
 permalink: /funfact2/
 ---
 
