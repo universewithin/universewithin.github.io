@@ -12,8 +12,8 @@ Use mouse or trackpad to rotate object, and count the number of:
 - vertices?  
 - edges?  
 
-In the language of math, this object is called a __tetrahedron__.  
-_This name offers a clue to the number of faces it has._
+In the language of math, this object is called a ___tetrahedron___.  
+This name offers a clue to the number of faces it has.
 
 ---
 
