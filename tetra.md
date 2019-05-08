@@ -34,8 +34,8 @@ function draw() {
 	orbitControl(6,6);
 
 	normalMaterial();
-	rotateX(-s/r);
-	rotateY(-s/r);
+	rotateX(-s/4);
+	rotateY(-s/2);
 	//rotateZ(-s/r);
 
 	//fill(255);
