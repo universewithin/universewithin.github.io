@@ -27,7 +27,7 @@ let s = 128;
 
 
 function draw() {
-	background(153);
+	background(222);
 	let radius = width * 1.5;
 
 	//drag to move the world.
