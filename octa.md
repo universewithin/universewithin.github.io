@@ -9,8 +9,8 @@ permalink: /octa/
 Use mouse or trackpad to rotate object, and count the number of:   
 
 - faces? 
-- edges?  
-- vertices?  
+- vertices? 
+- edges?   
 
 ---
 

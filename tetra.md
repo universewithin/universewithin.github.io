@@ -9,8 +9,8 @@ permalink: /tetra/
 Use mouse or trackpad to rotate object, and count the number of:   
 
 - faces? 
-- edges?  
 - vertices?  
+- edges?  
 
 ---
 
@@ -109,7 +109,7 @@ function drawtetrahedron() {
 </script>
 
 <center>
-	<a href="/index/" class="previous">&laquo; previous</a>
+	<a href="//" class="previous">&laquo; previous</a>
 	<a href="/octa/" class="next">Next &raquo;</a>
 </center>
 

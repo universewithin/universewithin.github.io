@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hexahedron (Cube)	
-permalink: /index/
+permalink: //
 ---
 
 <div id="sketch-holder"></div>
@@ -9,8 +9,8 @@ permalink: /index/
 Use mouse or trackpad to rotate object, and count the number of:   
 
 - faces? 
-- edges?  
-- vertices?  
+- vertices?
+- edges?    
 
 ---
 
