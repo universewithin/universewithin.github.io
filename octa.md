@@ -67,8 +67,8 @@ function draw() {
 
 </script>
 
-<center>
+<div>
 	<a href="/tetra/" class="previous">&laquo; previous</a>
 	<!-- a href="" class="next">Next &raquo;</a -->
-</center>
+</div>
 
