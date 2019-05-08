@@ -35,7 +35,7 @@ function draw() {
 	push();
 	box(s, s, s);
 
-	stroke('#2222FF');
+	stroke('#333333');
 	strokeWeight(4);
 
 	// octahedron wireframe
