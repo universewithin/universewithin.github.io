@@ -13,7 +13,7 @@ Use mouse or trackpad to rotate object, and count the number of:
 - edges?    
 
 In the language of math, a cube is also known as a "hexahedron".  
-(This name offers a clue to the number of faces it has).
+This name offers a clue to the number of faces it has.
 
 ---
 

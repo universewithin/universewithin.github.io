@@ -13,8 +13,8 @@ Use mouse or trackpad to rotate object, and count the number of:
 - edges?   
 
 In the language of math, this object is called an "octahedron".  
-(This name offers a clue to the number of faces it has).
-  
+This name offers a clue to the number of faces it has.
+
 ---
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
