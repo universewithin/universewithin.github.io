@@ -36,7 +36,8 @@ function draw() {
 
 	normalMaterial();
 	rotateX(-s/13);
-	rotateY(s);
+	rotateY(-s/13);
+	rotateZ(-s/13);
 
 	//fill(255);
     stroke('#222222');
@@ -44,6 +45,8 @@ function draw() {
 
 	//(s,s,s) (s,-s,-s) (-s,-s,s) (-s,s,-s)
 
+	push();
+
 	beginShape();
 	vertex(s,s,s);
 	vertex(s,-s,-s);
@@ -67,6 +70,8 @@ function draw() {
 	vertex(-s,-s,s);
 	vertex(-s,s,-s);
 	endShape(CLOSE);
+
+	pop();
 
 	// line(s,s,s,s,-s,-s);
 	// line(s,s,s,-s,-s,s);
@@ -75,75 +80,7 @@ function draw() {
 	// line(s,-s,-s,-s,-s,s);
 	// line(s,-s,-s,-s,s,-s);
 	// line(-s,-s,s,-s,s,-s);
-
-	// (0, s * sqrt(2.0 / 3.0), 0);
- //    (s / sqrt(3.0), 0, 0);
- //    (-s / (2.0 * sqrt(3)), 0, -s/2);
- //    (-s / (2.0 * sqrt(3)), 0, s/2);
-
-    // line(0, s * sqrt(2.0 / 3.0), 0, s / sqrt(3.0), 0, 0);
-    // line(0, s * sqrt(2.0 / 3.0), 0, -s / (2.0 * sqrt(3)), 0, -s/2);
-    // line(0, s * sqrt(2.0 / 3.0), 0, -s / (2.0 * sqrt(3)), 0, s/2);
-
-    // line(s / sqrt(3.0), 0, 0, -s / (2.0 * sqrt(3)), 0, -s/2);
-    // line(-s / (2.0 * sqrt(3)), 0, -s/2, -s / (2.0 * sqrt(3)), 0, s/2);
-    // line(-s / (2.0 * sqrt(3)), 0, s/2, s / sqrt(3.0), 0, 0);
-
- //    push();
-
-//    drawtetrahedron();
- //    pop();
-
 }
-
-function drawtetrahedron() {
-   beginShape(TRIANGLES);
-   vertex(-s/2,0,0);
-   vertex(0,sin(rad60)*(-s),0);
-   vertex(s/2,0,0);    
-  endShape();
-  beginShape(TRIANGLES);
-   vertex(-s/2,0,0);
-   vertex(0,sin(rad60)*(-s)*.5,sin(rad60)*(s));
-   vertex(s/2,0,0);    
-  endShape();
-   beginShape(TRIANGLES);
-   vertex(-s/2,0,0);
-   vertex(0,sin(rad60)*(-s)*.5,sin(rad60)*(s));
-   vertex(0,sin(rad60)*(-s),0);    
-  endShape();
-    beginShape(TRIANGLES);
-     vertex(0,sin(rad60)*(-s),0);
-     vertex(0,sin(rad60)*(-s)*.5,sin(rad60)*(s));
-     vertex(s/2,0,0);
-  endShape();
-  
-}
-
-
-// function draw() {
-// 	background(250);
-
-// 	//drag to move the world.
-// 	orbitControl(6,6);
-
-// 	push();
-	
-// 	fill(255);
-
-//   	beginShape();
-//   	vertex(s, s, s);
-//   	vertex(-s, -s, s);
-//   	vertex(-s, s, -s);
-//   	vertex(s, -s, -s);
-//   	endShape(CLOSE);
-
-// 	pop();
-
-// 	normalMaterial();
-// 	rotateX(-s/13);
-// 	rotateY(s);
-// }
 
 </script>
 
