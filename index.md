@@ -11,7 +11,7 @@ Use mouse or trackpad to rotate object, and count the number of:
 - vertices?
 - edges?    
 
-In the language of math, a cube is also known as a ___hexahedron___.  
+In the language of math, a cube is also known as a __hexahedron__.  
 This name offers a clue to the number of faces it has.
 
 ---
