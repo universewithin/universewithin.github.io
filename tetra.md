@@ -8,7 +8,7 @@ permalink: /tetra/
 
 Use mouse or trackpad to rotate object, and count the number of:   
 
-- faces? 
+- faces ? 
 - vertices?  
 - edges?  
 
