@@ -28,41 +28,88 @@ let s = 128;
 
 function draw() {
 	background(250);
-	let radius = width * 1.5;
+	angleMode(DEGREES);
 
 	//drag to move the world.
 	orbitControl(6,6);
 
 	normalMaterial();
-	//rotateX(-s/13);
-	//rotateY(s);
+	rotateX(-60);
+	rotateY(72);
 
 	stroke('#222222');
 	strokeWeight(4);
 
-    line(0,s,0,s,0,0);
-    line(0,s,0,-s,0,0);
-    line(0,s,0,0,0,s);
-    line(0,s,0,0,0,-s);
+	// ( 0, s, 0) 
+	// (s,0,0) (-s,0,0) (0,0,s) (0,0,-s)
+	// ( 0,-s, 0)
 
-	line(0,-s,0,s,0,0);
-    line(0,-s,0,-s,0,0);
-    line(0,-s,0,0,0,s);
-    line(0,-s,0,0,0,-s);
+	push();
 
-    line(-s,0,0,0,0,-s);
-    line(0,0,-s,s,0,0);
-    line(s,0,0,0,0,s);
-    line(0,0,s,-s,0,0);
+	beginShape();
+	vertex( 0, s, 0);
+	vertex(-s, 0, 0);
+	vertex( 0, 0,-s);
+	endShape(CLOSE);
 
-    // line(s,0,0,s,s,0);
-    // line(s,s,0,0,s,0);
-    // line(0,s,0,0,0,0);
-    // line(0,0,0,s/2,s/2,s);
-    // line(s,0,0,s/2,s/2,s);
-    // line(s,s,0,s/2,s/2,s);
-    // line(0,s,0,s/2,s/2,s);
+	beginShape();
+    vertex( 0, s, 0);
+    vertex( 0, 0,-s);
+    vertex( s, 0, 0);
+	endShape(CLOSE);
 
+	beginShape();
+    vertex( 0, s, 0);
+    vertex( s, 0, 0);
+    vertex( 0, 0, s);
+	endShape(CLOSE);
+
+	beginShape();
+    vertex( 0, s, 0);
+    vertex( 0, 0, s);
+    vertex(-s, 0, 0);
+	endShape(CLOSE);
+
+	beginShape();
+    vertex( 0,-s, 0);
+    vertex(-s, 0, 0);
+    vertex( 0, 0,-s);
+	endShape(CLOSE);
+
+	beginShape();
+    vertex( 0,-s, 0);
+    vertex( 0, 0,-s);
+    vertex( s, 0, 0);
+	endShape(CLOSE);
+
+	beginShape();
+    vertex( 0,-s, 0);
+    vertex( s, 0, 0);
+    vertex( 0, 0, s);
+	endShape(CLOSE);
+
+	beginShape();
+    vertex( 0,-s, 0);
+    vertex( 0, 0, s);
+    vertex(-s, 0, 0);
+	endShape(CLOSE);
+
+	pop();
+
+ //    line(0,s,0,s,0,0);
+ //    line(0,s,0,-s,0,0);
+ //    line(0,s,0,0,0,s);
+ //    line(0,s,0,0,0,-s);
+
+ //    line(0,-s,0,s,0,0);
+ //    line(0,-s,0,-s,0,0);
+ //    line(0,-s,0,0,0,s);
+ //    line(0,-s,0,0,0,-s);
+
+ //    line(-s,0,0,0,0,-s);
+ //    line(0,0,-s,s,0,0);
+ //    line(s,0,0,0,0,s);
+ //    line(0,0,s,-s,0,0);
 }
 
 </script>
