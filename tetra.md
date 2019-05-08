@@ -36,7 +36,7 @@ function draw() {
 
 	normalMaterial();
 	rotateX(-60);
-	rotateY(90);
+	rotateY(72);
 
     stroke('#222222');
 	strokeWeight(2);
