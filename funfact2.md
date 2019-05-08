@@ -33,9 +33,6 @@ function draw() {
 
     stroke('#222222');
 	strokeWeight(2);
-	//lights();
-
-	//(s,s,s) (s,-s,-s) (-s,-s,s) (-s,s,-s)
 
 	push();
 
@@ -67,6 +64,8 @@ function draw() {
 	vertex(-s,s,-s);
 	endShape(CLOSE);
 
+	noFill();
+
 	stroke('#222222');
 	strokeWeight(3);
 
@@ -90,20 +89,8 @@ function draw() {
 	line(-w,-w, w,-w, w,-w);
 
 	pop();
-
-	// line(s,s,s,s,-s,-s);
-	// line(s,s,s,-s,-s,s);
-	// line(s,s,s,-s,s,-s);
-
-	// line(s,-s,-s,-s,-s,s);
-	// line(s,-s,-s,-s,s,-s);
-	// line(-s,-s,s,-s,s,-s);
 }
 
 </script>
 
-<div>
-	<a href="/cube/" class="previous">&laquo; previous</a>
-	<a href="/octa/" class="next">Next &raquo;</a>
-</div>
 
