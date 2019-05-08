@@ -42,15 +42,39 @@ function draw() {
     stroke('#222222');
 	strokeWeight(4);
 
-	//(1,1,1) (1,-1,-1) (-1,-1,1) (-1,1,-1)
+	//(s,s,s) (s,-s,-s) (-s,-s,s) (-s,s,-s)
 
-	line(s,s,s,s,-s,-s);
-	line(s,s,s,-s,-s,s);
-	line(s,s,s,-s,s,-s);
+	beginShape();
+	vertex(s,s,s);
+	vertex(s,-s,-s);
+	vertex(-s,-s,s);
+	endShape(CLOSE);
 
-	line(s,-s,-s,-s,-s,s);
-	line(s,-s,-s,-s,s,-s);
-	line(-s,-s,s,-s,s,-s);
+	beginShape();
+	vertex(s,s,s);
+	vertex(s,-s,-s);
+	vertex(-s,s,-s);
+	endShape(CLOSE);
+
+	beginShape();
+	vertex(s,s,s);
+	vertex(-s,-s,s);
+	vertex(-s,s,-s);
+	endShape(CLOSE);
+
+	beginShape();
+	vertex(s,-s,-s);
+	vertex(-s,-s,s);
+	vertex(-s,s,-s);
+	endShape(CLOSE);
+
+	// line(s,s,s,s,-s,-s);
+	// line(s,s,s,-s,-s,s);
+	// line(s,s,s,-s,s,-s);
+
+	// line(s,-s,-s,-s,-s,s);
+	// line(s,-s,-s,-s,s,-s);
+	// line(-s,-s,s,-s,s,-s);
 
 	// (0, s * sqrt(2.0 / 3.0), 0);
  //    (s / sqrt(3.0), 0, 0);
