@@ -34,12 +34,35 @@ function draw() {
 	orbitControl(6,6);
 
 	normalMaterial();
-	rotateX(-s/13);
-	rotateY(s);
+	//rotateX(-s/13);
+	//rotateY(s);
 
-	push();
-	//box(s, s, s);
-	pop();
+	stroke('#222222');
+	strokeWeight(4);
+
+    line(0,s,0,s,0,0);
+    line(0,s,0,-s,0,0);
+    line(0,s,0,0,0,s);
+    line(0,s,0,0,0,-s);
+
+	line(0,-s,0,s,0,0);
+    line(0,-s,0,-s,0,0);
+    line(0,-s,0,0,0,s);
+    line(0,-s,0,0,0,-s);
+
+    line(-s,0,0,0,0,-s);
+    line(0,0,-s,s,0,0);
+    line(s,0,0,0,0,s);
+    line(0,0,s,-s,0,0);
+
+    // line(s,0,0,s,s,0);
+    // line(s,s,0,0,s,0);
+    // line(0,s,0,0,0,0);
+    // line(0,0,0,s/2,s/2,s);
+    // line(s,0,0,s/2,s/2,s);
+    // line(s,s,0,s/2,s/2,s);
+    // line(0,s,0,s/2,s/2,s);
+
 }
 
 </script>

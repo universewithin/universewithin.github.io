@@ -76,7 +76,7 @@ function drawtetrahedron() {
     beginShape(TRIANGLES);
      vertex(0,sin(rad60)*(-s),0);
      vertex(0,sin(rad60)*(-s)*.5,sin(rad60)*(s));
-       vertex(s/2,0,0);
+     vertex(s/2,0,0);
   endShape();
   
 }
