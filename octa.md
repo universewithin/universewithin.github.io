@@ -50,7 +50,7 @@ function draw() {
 
 	push();
 
-	fill('rgba(255,0,170,0.81)');
+	fill(color(c,0,170));
 	beginShape();
 	vertex( 0, s, 0);
 	vertex(-s, 0, 0);
