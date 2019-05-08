@@ -24,7 +24,7 @@ function setup() {
 	//cvs.style('display', 'block');    
 }
 
-let s = 128;
+let s = 128*2;
 //let rad60 = 60*PI/180;
 let rad60 = radians(60);
 
